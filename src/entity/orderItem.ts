@@ -27,7 +27,7 @@ export default class OrderItem {
     }
 
 
-      total(): number {
-        return this._items.reduce((acc, item) => acc + item.orderItemTotal(), 0);
-    }
+    //   total(): number {
+    //     return this._items.reduce((acc, item) => acc + item.orderItemTotal(), 0);
+    // }
 }
