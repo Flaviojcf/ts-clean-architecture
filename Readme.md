@@ -1,6 +1,6 @@
 # Typescript application
 
-This is a application built in typescript to learn about DDD and some patterns.
+This is an application built in typescript to learn about DDD and some patterns.
 
 ## Overview
 
