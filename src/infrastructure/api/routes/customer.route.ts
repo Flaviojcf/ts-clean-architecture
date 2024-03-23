@@ -1,4 +1,5 @@
-import express, {Request, Response  } from "express";
+import * as express from "express";
+import {Request, Response  } from "express";
 import CreateCustomerUseCase from '../../../usecase/customer/create/create.customer.usecase';
 import CustomerRepository from '../../customer/repository/sequelize/customer.repository';
 
@@ -13,10 +14,10 @@ customerRoute.post("/", async (req: Request, res: Response) => {
         const customerDto = {
             name: req.body.name,
             address: {
-                street: req.body.addres.street,
-                city: req.body.addres.city,
-                number: req.body.addres.number,
-                zip: req.body.addres.zip,
+                street: req.body.address.street,
+                city: req.body.address.city,
+                number: req.body.address.number,
+                zip: req.body.address.zip,
             }
         }
 

@@ -1,4 +1,5 @@
-import express, {Express} from "express";
+import * as express from "express";
+import {Express} from "express";
 import { Sequelize } from "sequelize-typescript";
 import CustomerModel from "../customer/repository/sequelize/customer.model";
 import { customerRoute } from "./routes/customer.route";

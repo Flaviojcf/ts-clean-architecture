@@ -1,6 +1,6 @@
 
 import {app, sequelize} from "../express";
-import request from "supertest";
+import * as request from "supertest";
 
 describe("E2E test for customer", () => {
 
